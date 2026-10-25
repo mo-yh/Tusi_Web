@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background: #323235;
+    width: 100%;
+    height: 100px;
+}
+.conser{
+    margin: 0 auto;
+}
+.main{
+    background: #d0d0d5;
+    padding-top: 42px;
+    height: auto;
+}
+/*.footer{*/
+/*    background-color: #161616;*/
+/*    width: 100%;*/
+/*    height: 200px;*/
+/*    padding: 0;*/
+/*}*/
+
+.content{
+    width: 300px;
+    height: 200px;
+    background: #44d7e4;
+    margin: 0 auto;
+
+}
+.list{
+    list-style: none;
+    display: flow-root;
+}
+.list > li{
+    display: flex;                 /* 同一行 */
+    align-items: stretch;          /* 等高（默认值，写出更清晰） */
+    width: 1000px;
+    margin: 50px auto;             /* 盒子居中 + 之间留距 */
+    background: #fff;
+    box-shadow: 0 4px 12px rgb(19 13 13 / 0.1);
+}
+.exp_con{
+    flex: 1;                       /* 右侧文字区占满剩余空间 */
+    padding: 16px 20px;
+}
+.show_img{
+    width: 543px;
+    height: 100%;
+    transition: transform 0.6s ease;
+}
+.button{
+    border: 2px solid #fff;
+    border-radius: 10px; /* 圆角 */
+    background: linear-gradient(to bottom, #770303, #e80f0f);
+    width: 150px;
+    margin: 40px 0;
+    padding: 10px;
+    line-height: 20px;
+}
+.button_text {
+    display: block; /* 块级元素，占满父元素 */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.exp_con h1,
+.exp_con span,
+.exp_con p{
+    color: #6e6d87;
+}
+.exp_con h1{
+    line-height: 90px;
+    font-weight: bold;
+
+}
+.ME h1{
+    font-size: 42px;
+    color: #fff;
+    margin: 20px;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    text-align: center;
+    color: #ffffff;
+}
+.menu1{
+    flex: 1;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu1 a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+
+}
+.menu_text{
+    display: block;
+    transition: color 0.6s ease, transform 0.6s ease;
+}
+.menu_ui:hover{
+    transform: scale(1.15);
+    color: #f6ec42;
+}
+.show_img:hover{
+    transform: scale(1.05);
+}
+.biaoqingbao{
+    position: fixed;
+    z-index: 99;
+    top: 10%;
+    right: -15px;
+    width: 12px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.biaoqingbao img{
+    width: 200px;
+    height: auto;
+}

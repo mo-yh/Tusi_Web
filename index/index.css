@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to bottom, #e63d83, #f8e56b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
+    margin: 0;
+    /*letter-spacing: 20px;*/
+
+}
+.main h1 .highlight,
+.main h1 .me{
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+.main h1 .study{
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.8s ease, transform 0.8s ease;
+}
+.main h1 .highlight:hover,
+.main h1 .me:hover{
+    color: #57c5fd;
+    transform: scale(1.15);
+}
+.main h1 .study:hover {
+    color:  #57c5fd;
+    transform: rotate(360deg) scale(1.15);
+
+}
+.main a {
+    display: block; /* 块级元素，占满父元素 */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.button{
+    border: 2px solid #fff;
+    border-radius: 16px; /* 圆角 */
+    transform: translateY(18vh);
+    background:  linear-gradient(135deg, #aff86b, #f4319e);
+    width: 150px;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.main .button:hover{
+    transform:translateY(18vh) scale(1.15);
+
+}
+

@@ -1,2 +1,0 @@
-# Tusi_Web
-Tusi
